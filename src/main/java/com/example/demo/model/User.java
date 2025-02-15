@@ -4,6 +4,7 @@ public class User {
     int id;
     String userName;
     int age;
+    String mail;
 
     public int getId() {
         return id;
@@ -27,5 +28,13 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
     }
 }
